@@ -1,18 +1,16 @@
 //  core.k defines the core types of the kre programming language
 
-typedef bool;
-
-typedef int;
 typedef i8;
 typedef i16;
 typedef i32;
 typedef i64;
 
-typedef uint;
 typedef u8;
 typedef u16;
 typedef u32;
 typedef u64;
+
+typedef bool;
 
 typedef float;
 typedef double;
