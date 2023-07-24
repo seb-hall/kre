@@ -26,3 +26,7 @@ public int main() {
 }
 
 ```
+
+## Code Structure
+
+kre supports forward declaration and definition. This means you can treat k files as headers for managing code with no issues.
