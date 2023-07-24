@@ -1,9 +1,9 @@
 #import std::io
 
 //  define public main function
-public int main() {
+int main() {
 
-  //  implicitly call string::string(const char[])
+  //  implicitly call string::init(const char[])
   string myString = "hello world!";
 
   //  implicitly passed as copy to print(string)

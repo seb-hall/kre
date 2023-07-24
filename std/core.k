@@ -1,23 +1,23 @@
 //  core.k defines the core types of the kre programming language
 
-type bool;
+typedef bool;
 
-type int;
-type i8;
-type i16;
-type i32;
-type i64;
+typedef int;
+typedef i8;
+typedef i16;
+typedef i32;
+typedef i64;
 
-type uint;
-type u8;
-type u16;
-type u32;
-type u64;
+typedef uint;
+typedef u8;
+typedef u16;
+typedef u32;
+typedef u64;
 
-type float;
-type double;
+typedef float;
+typedef double;
 
-type string {
+class string {
 
     public char[] raw;
 
@@ -29,14 +29,14 @@ type string {
 
 }
 
-type vec2 {
+class vec2 {
     
     public float x;
     public float y;
 
 }
 
-type vec3 {
+class vec3 {
 
     public float x;
     public float y;
@@ -44,7 +44,7 @@ type vec3 {
 
 }
 
-type vec4 {
+class vec4 {
 
     public float x;
     public float y;
